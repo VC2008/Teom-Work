@@ -1,106 +1,106 @@
 const players = [
     {
-        species: 'template',
+        species: 'Ghazt',
         nickname: 'template',
-        elements: 'Plasma',
+        elements: 'IMGS/Plasma_Element.webp',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
      {
-        species: 'template',
+        species: 'Grumpyre',
         nickname: 'template',
         elements: 'Shadow',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
      {
-        species: 'template',
+        species: 'Reebro',
         nickname: 'template',
         elements: 'Mech',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
      {
-        species: 'template',
+        species: 'Jeeode',
         nickname: 'template',
         elements: 'Crystal',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
      {
-        species: 'template',
+        species: 'Humbug',
         nickname: 'template',
-        elements: 'Poison',
+        elements: 'IMGS/Poison_Element.webp',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
 
 //Double Elementals
     {
-        species: 'template',
+        species: 'Whisp',
         nickname: 'template',
         elements: 'Plasma + Shadow',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Nebulob',
         nickname: 'template',
         elements: 'Plasma + Mech',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Sox',
         nickname: 'template',
         elements: 'Plasma + Crystal',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Jellbilly',
         nickname: 'template',
         elements: 'Plasma + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Arackulele',
         nickname: 'template',
         elements: 'Shadow + Mech',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'BooDoo',
         nickname: 'template',
         elements: 'Shadow + Crystal',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Kazellion',
         nickname: 'template',
         elements: 'Shadow + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Bellowfish',
         nickname: 'template',
         elements: 'Mech + Crystal',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Dragong',
         nickname: 'template',
         elements: 'Mech + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Fungpray',
         nickname: 'template',
         elements: 'Crystal + Poison',
         stability: 'template',
@@ -110,70 +110,70 @@ const players = [
 //Triple Elementals
 
     {
-        species: 'template',
+        species: 'Yooreek',
         nickname: 'template',
         elements: 'Plasma + Shadow + Mech',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Meebkin',
         nickname: 'template',
         elements: 'Plasma + Shadow + Crystal',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Blarret',
         nickname: 'template',
         elements: 'Plasma + Shadow + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Gaddzooks',
         nickname: 'template',
         elements: 'Plasma + Mech + Crystal',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Auglur',
         nickname: 'template',
         elements: 'Plasma + Mech + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Flasque',
         nickname: 'template',
         elements: 'Plasma + Crystal + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Nitebear',
         nickname: 'template',
         elements: 'Shadow + Mech + Crystal',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Piplash',
         nickname: 'template',
         elements: 'Shadow + Mech + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'X rt',
         nickname: 'template',
         elements: 'Shadow + Crystal + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Teeter Tauter',
         nickname: 'template',
         elements: 'Mech + Crystal + Poison',
         stability: 'template',
@@ -183,45 +183,46 @@ const players = [
 //Quad Elementals
 
     {
-        species: 'template',
+        species: 'Whaill',
         nickname: 'template',
         elements: 'Plasma + Shadow + Mech + Crystal',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Vhenshun',
         nickname: 'template',
         elements: 'Plasma + Shadow + Mech + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Pentumbra',
         nickname: 'template',
         elements: 'Plasma + Shadow + Crystal + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Rhysmuth',
         nickname: 'template',
         elements: 'Plasma + Mech + Crystal + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
     {
-        species: 'template',
+        species: 'Oogiddy',
         nickname: 'template',
         elements: 'Shadow + Mech + Crystal + Poison',
         stability: 'template',
         photo: 'https://picsum.photos/300/150'
     },
 
-//Quint
 
-      {
-        species: 'template',
+]
+const quint = [
+    {
+        species: 'BeMeebEth',
         nickname: 'template',
         elements: 'Plasma + Shadow + Mech + Crystal + Poison',
         stability: 'template',
