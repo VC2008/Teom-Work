@@ -18,6 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h3 class="card-title mb-1">${p.species} ${p.nickname}</h5>
                     <div class="badge badge-position badge-pos-${p.elements}">${p.elements}</div>
                     <p class="small text-muted mb-0"> ${p.stability}</p>
+                    ${p.button}
+          </div>
+          </div>
+
             ` 
             grid.appendChild(col)
         })
@@ -25,7 +29,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
     render(players)
+    grid.addEventListener('click', function (e) {
+  if (e.target.classList.contains('show-info-btn')) {
+    const index = e.target.getAttribute('data-player-index')
+    const player = players[index]
+    showPlayerModal(player)
+  }
+})
+function showPlayerModal(player) {
+  document.getElementById('modalPhoto').src = player.photo
+  document.getElementById('modalName').textContent = `${player.species} ${player.nickname}`
+  document.getElementById('modalPosition').textContent = player.elements
+  document.getElementById('modalAge').textContent = player.stability
+}
+
 
 })
 

@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(183, 0, 255);
     align-content: center;
 }
 
@@ -7,6 +7,9 @@ h5{
     text-align: center;
 }
 
+h1{
+    align-content: center;
+}
 
 .row {margin: 0 -5px;
 align-content: center;
