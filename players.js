@@ -12,7 +12,7 @@ const players = [
         nickname: '(Darr)',
         elements: 'Shadow',
         stability: '2',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Grumpyre.webp',
         button: '<button onclick="showProfile(\'Grumpyre\')" class="btn btn-primary">View Profile</button>'
     },
      {
@@ -20,7 +20,7 @@ const players = [
         nickname: '(Flonk)',
         elements: 'Mech',
         stability: '3',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Reebro.webp',
         button: '<button onclick="showProfile(\'Reebro\')" class="btn btn-primary">View Profile</button>'
     },
      {
@@ -28,7 +28,7 @@ const players = [
         nickname: '(Ekko)',
         elements: 'Crystal',
         stability: '4',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Jeeode.webp',
         button: '<button onclick="showProfile(\'Jeeode\')" class="btn btn-primary">View Profile</button>'
     },
      {
@@ -36,7 +36,7 @@ const players = [
         nickname: '(Skrooj)',
         elements: 'IMGS/Poison_Element.webp',
         stability: '5',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Humbug (2).webp',
          button: '<button onclick="showProfile(\'Humbug\')" class="btn btn-primary">View Profile</button>'
     },
 
@@ -46,7 +46,7 @@ const players = [
         nickname: '(Rayth)',
         elements: 'Plasma + Shadow',
         stability: '6',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Whisp.webp',
          button: '<button onclick="showProfile(\'Whisp\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -54,7 +54,7 @@ const players = [
         nickname: '(Cosmo)',
         elements: 'Plasma + Mech',
         stability: '8',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Nebulob.webp',
          button: '<button onclick="showProfile(\'Nebulob\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -62,7 +62,7 @@ const players = [
         nickname: '(Todd)',
         elements: 'Plasma + Crystal',
         stability: '10',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Sox.webp',
          button: '<button onclick="showProfile(\'Sox\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -70,7 +70,7 @@ const players = [
         nickname: '(Cnid)',
         elements: 'Plasma + Poison',
         stability: '12',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Jellbilly.webp',
          button: '<button onclick="showProfile(\'Jellbilly\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -78,7 +78,7 @@ const players = [
         nickname: '(Acktagon)',
         elements: 'Shadow + Mech',
         stability: '10',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Arackulele.webp',
          button: '<button onclick="showProfile(\'Arackulele\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -86,7 +86,7 @@ const players = [
         nickname: '(Bonez)',
         elements: 'Shadow + Crystal',
         stability: '12',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Boodoo.webp',
          button: '<button onclick="showProfile(\'BooDoo\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -94,7 +94,7 @@ const players = [
         nickname: '(Brady)',
         elements: 'Shadow + Poison',
         stability: '14',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Kazilleon.webp',
          button: '<button onclick="showProfile(\'Kazellion\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -102,7 +102,7 @@ const players = [
         nickname: '(Sawl)',
         elements: 'Mech + Crystal',
         stability: '14',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Bellowfish.webp',
          button: '<button onclick="showProfile(\'Bellowfish\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -110,7 +110,7 @@ const players = [
         nickname: '(Lither)',
         elements: 'Mech + Poison',
         stability: '16',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Dragong.webp',
          button: '<button onclick="showProfile(\'Dragong\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -118,7 +118,7 @@ const players = [
         nickname: '(Bow)',
         elements: 'Crystal + Poison',
         stability: '18',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Fung_Pray.webp',
          button: '<button onclick="showProfile(\'Fungpray\')" class="btn btn-primary">View Profile</button>'
     },
 
@@ -129,7 +129,7 @@ const players = [
         nickname: '(Tunks)',
         elements: 'Plasma + Shadow + Mech',
         stability: '18',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Yooreek_Playing.webp',
          button: '<button onclick="showProfile(\'Yooreek\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -137,7 +137,7 @@ const players = [
         nickname: '(Eugly)',
         elements: 'Plasma + Shadow + Crystal',
         stability: '21',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Meebkin_with_meeb.webp',
          button: '<button onclick="showProfile(\'Meebkin\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -145,7 +145,7 @@ const players = [
         nickname: '(Otta)',
         elements: 'Plasma + Shadow + Poison',
         stability: '24',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Blarret.webp',
          button: '<button onclick="showProfile(\'Blarret\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -153,7 +153,7 @@ const players = [
         nickname: '(Fooey)',
         elements: 'Plasma + Mech + Crystal',
         stability: '24',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Gaddzooks.webp',
          button: '<button onclick="showProfile(\'Gaddzooks\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -161,7 +161,7 @@ const players = [
         nickname: '(J)',
         elements: 'Plasma + Mech + Poison',
         stability: '27',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Auglur_Playing.webp',
          button: '<button onclick="showProfile(\'Auglur\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -169,7 +169,7 @@ const players = [
         nickname: '(Clakblu)',
         elements: 'Plasma + Crystal + Poison',
         stability: '30',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Flasque_Open_Mouth.webp',
          button: '<button onclick="showProfile(\'Flasque\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -177,7 +177,7 @@ const players = [
         nickname: '(Ben)',
         elements: 'Shadow + Mech + Crystal',
         stability: '27',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Nitebear.webp',
          button: '<button onclick="showProfile(\'Nitebear\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -185,7 +185,7 @@ const players = [
         nickname: '(Ozzy)',
         elements: 'Shadow + Mech + Poison',
         stability: '30',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Piplash.webp',
          button: '<button onclick="showProfile(\'Piplash\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -193,7 +193,7 @@ const players = [
         nickname: 'Mehgrun',
         elements: 'Shadow + Crystal + Poison',
         stability: '33',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/X%27rt.webp',
          button: '<button onclick="showProfile(\'X-rt\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -201,7 +201,7 @@ const players = [
         nickname: 'Matt & Shawn',
         elements: 'Mech + Crystal + Poison',
         stability: '36',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Teeter-Tauter.webp',
          button: '<button onclick="showProfile(\'Teeter-Tauter\')" class="btn btn-primary">View Profile</button>'
     },
 
@@ -212,7 +212,7 @@ const players = [
         nickname: '(Mouf)',
         elements: 'Plasma + Shadow + Mech + Crystal',
         stability: '40',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Whaill.webp',
          button: '<button onclick="showProfile(\'Whaill\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -220,7 +220,7 @@ const players = [
         nickname: '(Wizsl)',
         elements: 'Plasma + Shadow + Mech + Poison',
         stability: '44',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Vhenshun.webp',
          button: '<button onclick="showProfile(\'Vhenshun\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -228,7 +228,7 @@ const players = [
         nickname: '(Akhuhoth)',
         elements: 'Plasma + Shadow + Crystal + Poison',
         stability: '48',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Pentumbra.webp',
          button: '<button onclick="showProfile(\'Pentumbra\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -236,7 +236,7 @@ const players = [
         nickname: '(Endarblox)',
         elements: 'Plasma + Mech + Crystal + Poison',
         stability: '52',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Rhysmuth.webp',
          button: '<button onclick="showProfile(\'Rhysmuth\')" class="btn btn-primary">View Profile</button>'
     },
     {
@@ -244,7 +244,7 @@ const players = [
         nickname: '(Murkas)',
         elements: 'Shadow + Mech + Crystal + Poison',
         stability: '56',
-        photo: 'https://picsum.photos/300/150',
+        photo: 'IMGS/Oogiddy.webp',
          button: '<button onclick="showProfile(\'Oogiddy\')" class="btn btn-primary">View Profile</button>'
     },
 
@@ -280,7 +280,11 @@ function showProfile(name) {
 
 function getBio(name) {
   const bios = {
-
+        "Ghazt": "A ghostly Plasma Elemental known for its feline-like behaviors and sounds",
+        "Grumpyre": "A flying Shadow Elemental that has reversed emotions from what its actually feeling",
+        "Reebro": "A Mechanical Ethereal delicately crafted to support itself",
+        "Jeeode": "The dazling Crystal Ethereal known for its soothing melodies",
+        "Humbug": "An interesting Poison Ethereal capable of generating immense power with its wings"
      };
-  return bios[name] || "This player's biography is unavailable.";
+  return bios[name] || "This Ethereal Bio is unavailable.";
 }
