@@ -267,9 +267,9 @@ function showProfile(name) {
   document.getElementById("modalHead").textContent = player.species;
   document.getElementById("modalBody").innerHTML = `
     <img src="${player.photo}" class="img-fluid mb-3" alt="${player.species}">
-    <p><strong>Age:</strong> ${player.nickname}</p>
-    <p><strong>Country:</strong> ${player.elements}</p>
-    <p><strong>Position:</strong> ${player.stability}</p>
+    <p><strong>nickname:</strong> ${player.nickname}</p>
+    <p><strong>elements:</strong> ${player.elements}</p>
+    <p><strong>stability:</strong> ${player.stability}</p>
     <p>${getBio(player.species)}</p>
   `;
 
