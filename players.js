@@ -259,3 +259,21 @@ const quint = [
         photo: 'https://picsum.photos/300/150'
     },
 ]
+
+function showProfile(name) {
+  const player = players.find(p => p.name === name);
+  if (!player) return;
+
+  document.getElementById("modalHead").textContent = player.species;
+  document.getElementById("modalBody").innerHTML = `
+    <img src="${player.photo}" class="img-fluid mb-3" alt="${player.species}">
+    <p><strong>Age:</strong> ${player.nickname}</p>
+    <p><strong>Country:</strong> ${player.elements}</p>
+    <p><strong>Position:</strong> ${player.stability}</p>
+    <p>${getBio(player.species)}</p>
+  `;
+
+  // Show modal using Bootstrap JS
+  const modal = new bootstrap.Modal(document.getElementById("exampleModal"));
+  modal.show();
+}
