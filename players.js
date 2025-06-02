@@ -1,7 +1,7 @@
 const players = [
     {
         species: 'Ghazt',
-        nickname: 'template',
+        nickname: '(Astral)',
         elements: 'IMGS/Plasma_Element.png',
         stability: '1',
         photo: 'IMGS/Ghazt.webp',
@@ -9,7 +9,7 @@ const players = [
      },
      {
         species: 'Grumpyre',
-        nickname: 'template',
+        nickname: '(Darr)',
         elements: 'Shadow',
         stability: '2',
         photo: 'https://picsum.photos/300/150',
@@ -17,7 +17,7 @@ const players = [
     },
      {
         species: 'Reebro',
-        nickname: 'template',
+        nickname: '(Flonk)',
         elements: 'Mech',
         stability: '3',
         photo: 'https://picsum.photos/300/150',
@@ -25,7 +25,7 @@ const players = [
     },
      {
         species: 'Jeeode',
-        nickname: 'template',
+        nickname: '(Ekko)',
         elements: 'Crystal',
         stability: '4',
         photo: 'https://picsum.photos/300/150',
@@ -33,7 +33,7 @@ const players = [
     },
      {
         species: 'Humbug',
-        nickname: 'template',
+        nickname: '(Skrooj)',
         elements: 'IMGS/Poison_Element.webp',
         stability: '5',
         photo: 'https://picsum.photos/300/150',
@@ -43,7 +43,7 @@ const players = [
 //Double Elementals
     {
         species: 'Whisp',
-        nickname: 'template',
+        nickname: '(Rayth)',
         elements: 'Plasma + Shadow',
         stability: '6',
         photo: 'https://picsum.photos/300/150',
@@ -51,7 +51,7 @@ const players = [
     },
     {
         species: 'Nebulob',
-        nickname: 'template',
+        nickname: '(Cosmo)',
         elements: 'Plasma + Mech',
         stability: '8',
         photo: 'https://picsum.photos/300/150',
@@ -59,7 +59,7 @@ const players = [
     },
     {
         species: 'Sox',
-        nickname: 'template',
+        nickname: '(Todd)',
         elements: 'Plasma + Crystal',
         stability: '10',
         photo: 'https://picsum.photos/300/150',
@@ -67,7 +67,7 @@ const players = [
     },
     {
         species: 'Jellbilly',
-        nickname: 'template',
+        nickname: '(Cnid)',
         elements: 'Plasma + Poison',
         stability: '12',
         photo: 'https://picsum.photos/300/150',
@@ -75,7 +75,7 @@ const players = [
     },
     {
         species: 'Arackulele',
-        nickname: 'template',
+        nickname: '(Acktagon)',
         elements: 'Shadow + Mech',
         stability: '10',
         photo: 'https://picsum.photos/300/150',
@@ -83,7 +83,7 @@ const players = [
     },
     {
         species: 'BooDoo',
-        nickname: 'template',
+        nickname: '(Bonez)',
         elements: 'Shadow + Crystal',
         stability: '12',
         photo: 'https://picsum.photos/300/150',
@@ -91,7 +91,7 @@ const players = [
     },
     {
         species: 'Kazellion',
-        nickname: 'template',
+        nickname: '(Brady)',
         elements: 'Shadow + Poison',
         stability: '14',
         photo: 'https://picsum.photos/300/150',
@@ -99,7 +99,7 @@ const players = [
     },
     {
         species: 'Bellowfish',
-        nickname: 'template',
+        nickname: '(Sawl)',
         elements: 'Mech + Crystal',
         stability: '14',
         photo: 'https://picsum.photos/300/150',
@@ -107,7 +107,7 @@ const players = [
     },
     {
         species: 'Dragong',
-        nickname: 'template',
+        nickname: '(Lither)',
         elements: 'Mech + Poison',
         stability: '16',
         photo: 'https://picsum.photos/300/150',
@@ -115,7 +115,7 @@ const players = [
     },
     {
         species: 'Fungpray',
-        nickname: 'template',
+        nickname: '(Bow)',
         elements: 'Crystal + Poison',
         stability: '18',
         photo: 'https://picsum.photos/300/150',
@@ -126,7 +126,7 @@ const players = [
 
     {
         species: 'Yooreek',
-        nickname: 'template',
+        nickname: '(Tunks)',
         elements: 'Plasma + Shadow + Mech',
         stability: '18',
         photo: 'https://picsum.photos/300/150',
@@ -134,7 +134,7 @@ const players = [
     },
     {
         species: 'Meebkin',
-        nickname: 'template',
+        nickname: '(Eugly)',
         elements: 'Plasma + Shadow + Crystal',
         stability: '21',
         photo: 'https://picsum.photos/300/150',
@@ -142,7 +142,7 @@ const players = [
     },
     {
         species: 'Blarret',
-        nickname: 'template',
+        nickname: '(Otta)',
         elements: 'Plasma + Shadow + Poison',
         stability: '24',
         photo: 'https://picsum.photos/300/150',
@@ -150,7 +150,7 @@ const players = [
     },
     {
         species: 'Gaddzooks',
-        nickname: 'template',
+        nickname: '(Fooey)',
         elements: 'Plasma + Mech + Crystal',
         stability: '24',
         photo: 'https://picsum.photos/300/150',
@@ -158,7 +158,7 @@ const players = [
     },
     {
         species: 'Auglur',
-        nickname: 'template',
+        nickname: '(J)',
         elements: 'Plasma + Mech + Poison',
         stability: '27',
         photo: 'https://picsum.photos/300/150',
@@ -166,7 +166,7 @@ const players = [
     },
     {
         species: 'Flasque',
-        nickname: 'template',
+        nickname: '(Clakblu)',
         elements: 'Plasma + Crystal + Poison',
         stability: '30',
         photo: 'https://picsum.photos/300/150',
@@ -174,7 +174,7 @@ const players = [
     },
     {
         species: 'Nitebear',
-        nickname: 'template',
+        nickname: '(Ben)',
         elements: 'Shadow + Mech + Crystal',
         stability: '27',
         photo: 'https://picsum.photos/300/150',
@@ -182,7 +182,7 @@ const players = [
     },
     {
         species: 'Piplash',
-        nickname: 'template',
+        nickname: '(Ozzy)',
         elements: 'Shadow + Mech + Poison',
         stability: '30',
         photo: 'https://picsum.photos/300/150',
@@ -190,7 +190,7 @@ const players = [
     },
     {
         species: 'X-rt',
-        nickname: 'template',
+        nickname: 'Mehgrun',
         elements: 'Shadow + Crystal + Poison',
         stability: '33',
         photo: 'https://picsum.photos/300/150',
@@ -198,7 +198,7 @@ const players = [
     },
     {
         species: 'Teeter-Tauter',
-        nickname: 'template',
+        nickname: 'Matt & Shawn',
         elements: 'Mech + Crystal + Poison',
         stability: '36',
         photo: 'https://picsum.photos/300/150',
@@ -209,7 +209,7 @@ const players = [
 
     {
         species: 'Whaill',
-        nickname: 'template',
+        nickname: '(Mouf)',
         elements: 'Plasma + Shadow + Mech + Crystal',
         stability: '40',
         photo: 'https://picsum.photos/300/150',
@@ -217,7 +217,7 @@ const players = [
     },
     {
         species: 'Vhenshun',
-        nickname: 'template',
+        nickname: '(Wizsl)',
         elements: 'Plasma + Shadow + Mech + Poison',
         stability: '44',
         photo: 'https://picsum.photos/300/150',
@@ -225,7 +225,7 @@ const players = [
     },
     {
         species: 'Pentumbra',
-        nickname: 'template',
+        nickname: '(Akhuhoth)',
         elements: 'Plasma + Shadow + Crystal + Poison',
         stability: '48',
         photo: 'https://picsum.photos/300/150',
@@ -233,7 +233,7 @@ const players = [
     },
     {
         species: 'Rhysmuth',
-        nickname: 'template',
+        nickname: '(Endarblox)',
         elements: 'Plasma + Mech + Crystal + Poison',
         stability: '52',
         photo: 'https://picsum.photos/300/150',
@@ -241,7 +241,7 @@ const players = [
     },
     {
         species: 'Oogiddy',
-        nickname: 'template',
+        nickname: '(Murkas)',
         elements: 'Shadow + Mech + Crystal + Poison',
         stability: '56',
         photo: 'https://picsum.photos/300/150',
@@ -276,4 +276,11 @@ function showProfile(name) {
   // Show modal using Bootstrap JS
   const modal = new bootstrap.Modal(document.getElementById("exampleModal"));
   modal.show();
+}
+
+function getBio(name) {
+  const bios = {
+
+     };
+  return bios[name] || "This player's biography is unavailable.";
 }
